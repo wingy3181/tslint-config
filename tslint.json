@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "ban-ts-ignore": false,
+    "member-access": [
+      false,
+      "no-public",
+      "check-accessor",
+      "check-constructor",
+      "check-parameter-property"
+    ]
+  }
+}
